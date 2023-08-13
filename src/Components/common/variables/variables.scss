@@ -1,0 +1,36 @@
+$nav-bg: rgba(0, 0, 0, 0.5);
+$dgray: rgb(86, 86, 86);
+$paracolor: rgb(86, 86, 86);
+$whatsapp: #4dc247;
+$lgray: #8080805c;
+$main: #1f618d;
+$orange: #ffb400;
+$orange-l: #ffcf60;
+$bald: rgb(232, 240, 254);
+$purple: rgb(192, 71, 192);
+
+h2 {
+  font-size: 3rem;
+}
+
+h3 {
+  font-size: 2.5rem;
+  color: #ffcf60;
+}
+
+h1 {
+  font-size: 4rem;
+  color: #ffb400;
+  font-family: "Rockwell";
+}
+p {
+  color: #646464;
+  font-size: 2rem;
+}
+@mixin pad20 {
+  padding: 10rem 20%;
+}
+
+@mixin pad10 {
+  padding: 7rem 10%;
+}

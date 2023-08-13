@@ -1,0 +1,146 @@
+h2 {
+  font-size: 3rem;
+}
+
+h3 {
+  font-size: 2.5rem;
+  color: #ffcf60;
+}
+
+h1 {
+  font-size: 4rem;
+  color: #ffb400;
+  font-family: "Rockwell";
+}
+
+p {
+  color: #646464;
+  font-size: 2rem;
+}
+
+.navbar {
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 10;
+  height: 0rem;
+  display: none;
+  -webkit-transition: height ease-in-out;
+  transition: height ease-in-out;
+}
+
+.navbar .navbar_wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.navbar .navbar_wrapper .navbar_logo {
+  margin: 2rem;
+}
+
+.navbar .navbar_wrapper .navbar_logo img {
+  width: 9rem;
+}
+
+.navbar .navbar_wrapper .navbar_lists {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.navbar .navbar_wrapper .navbar_lists svg {
+  color: white;
+  font-size: 3rem;
+  display: none;
+}
+
+@media (max-width: 750px) {
+  .navbar .navbar_wrapper .navbar_lists svg {
+    display: block;
+    margin-right: 2rem;
+  }
+}
+
+.navbar .navbar_wrapper .navbar_lists .navbar_list_items {
+  margin: 0;
+  padding: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-size: 2.3rem;
+  list-style-type: none;
+  gap: 5px;
+  margin-right: 5px;
+}
+
+@media (max-width: 750px) {
+  .navbar .navbar_wrapper .navbar_lists .navbar_list_items {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.5);
+    top: 100px;
+    left: 0;
+    right: 0;
+    overflow: none;
+    border-bottom: 1px solid #b3b3b3;
+    -webkit-clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
+            clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
+    -webkit-transition: 0.2s linear;
+    transition: 0.2s linear;
+  }
+}
+
+.navbar .navbar_wrapper .navbar_lists .navbar_list_items li {
+  padding: 10px;
+  font-size: 2.5rem;
+  color: white;
+  cursor: pointer;
+}
+
+.navbar .navbar_wrapper .navbar_lists .navbar_list_items li:hover {
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+@media (max-width: 750px) {
+  .navbar .navbar_wrapper .navbar_lists .navbar_list_items li {
+    width: 100%;
+  }
+}
+
+@media (max-width: 750px) {
+  .navbar .navbar_wrapper .navbar_lists .navbar_list_items.active {
+    padding-left: 2rem;
+    -webkit-clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+            clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+    -webkit-transition: 0.2s linear;
+    transition: 0.2s linear;
+  }
+}
+
+.navbar.active {
+  height: 11.5rem;
+  display: block;
+}
+/*# sourceMappingURL=navbar.css.map */

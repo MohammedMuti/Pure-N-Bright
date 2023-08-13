@@ -1,0 +1,95 @@
+@import "../variables/variables.scss";
+
+.navbar {
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+  background-color: $nav-bg;
+  z-index: 10;
+  height: 0rem;
+  display: none;
+  // overflow: hidden;
+  transition: height ease-in-out;
+
+  .navbar_wrapper {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+
+    .navbar_logo {
+      margin: 2rem;
+      img {
+        width: 9rem;
+      }
+    }
+
+    .navbar_lists {
+      display: flex;
+      align-items: center;
+      svg {
+        color: white;
+        font-size: 3rem;
+        display: none;
+        @media (max-width: 750px) {
+          display: block;
+          margin-right: 2rem;
+        }
+      }
+
+      .navbar_list_items {
+        margin: 0;
+        padding: 0;
+        display: flex;
+        font-size: 2.3rem;
+        list-style-type: none;
+        gap: 5px;
+        margin-right: 5px;
+
+        @media (max-width: 750px) {
+          display: flex;
+          flex-direction: column;
+          align-items: flex-start;
+          position: absolute;
+          background-color: rgba(0, 0, 0, 0.5);
+          top: 100px;
+          left: 0;
+          right: 0;
+          overflow: none;
+          // background-color: transparent;
+          // border-top: 1px solid rgb(179, 179, 179);
+          border-bottom: 1px solid rgb(179, 179, 179);
+          clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
+          transition: 0.2s linear;
+        }
+
+        li {
+          padding: 10px;
+          font-size: 2.5rem;
+          color: white;
+          cursor: pointer;
+          &:hover {
+            background-color: $nav-bg;
+          }
+          @media (max-width: 750px) {
+            width: 100%;
+          }
+        }
+      }
+
+      @media (max-width: 750px) {
+        .navbar_list_items.active {
+          padding-left: 2rem;
+          clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+          transition: 0.2s linear;
+        }
+      }
+    }
+  }
+}
+.navbar.active {
+  height: 11.5rem;
+  display: block;
+  // overflow: auto;
+}
