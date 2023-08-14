@@ -1,20 +1,24 @@
 {
   "files": {
-    "main.css": "/Pure-N-Bright/static/css/main.99e74394.css",
-    "main.js": "/Pure-N-Bright/static/js/main.c7829947.js",
+    "main.css": "/Pure-N-Bright/static/css/main.08effa87.css",
+    "main.js": "/Pure-N-Bright/static/js/main.8263e246.js",
     "static/media/3.jpg": "/Pure-N-Bright/static/media/3.7844410107c37e6f95a6.jpg",
+    "static/media/work1.png": "/Pure-N-Bright/static/media/work1.2f42c85503ee8617750c.png",
+    "static/media/work3.png": "/Pure-N-Bright/static/media/work3.4eea71b88e8d545001fe.png",
     "static/media/types3.jpg": "/Pure-N-Bright/static/media/types3.9c737e4a9e35212f4806.jpg",
+    "static/media/work2.jpeg": "/Pure-N-Bright/static/media/work2.2896272bed8b1d379fad.jpeg",
     "static/media/delivery2.jpg": "/Pure-N-Bright/static/media/delivery2.98e7dcb30494f70afbad.jpg",
     "static/media/contact.jpeg": "/Pure-N-Bright/static/media/contact.672dbc3f12e19ece192b.jpeg",
     "static/media/4.webp": "/Pure-N-Bright/static/media/4.6535513dc0211d245092.webp",
     "static/media/pet.jpg": "/Pure-N-Bright/static/media/pet.c218ce7986bde50ac8a1.jpg",
+    "static/media/choose1.webp": "/Pure-N-Bright/static/media/choose1.ce1a8b07e6ab978feda3.webp",
     "static/media/Pure-N-Bright-Logo.png.webp": "/Pure-N-Bright/static/media/Pure-N-Bright-Logo.png.abf0916acbed2e550e4c.webp",
     "index.html": "/Pure-N-Bright/index.html",
-    "main.99e74394.css.map": "/Pure-N-Bright/static/css/main.99e74394.css.map",
-    "main.c7829947.js.map": "/Pure-N-Bright/static/js/main.c7829947.js.map"
+    "main.08effa87.css.map": "/Pure-N-Bright/static/css/main.08effa87.css.map",
+    "main.8263e246.js.map": "/Pure-N-Bright/static/js/main.8263e246.js.map"
   },
   "entrypoints": [
-    "static/css/main.99e74394.css",
-    "static/js/main.c7829947.js"
+    "static/css/main.08effa87.css",
+    "static/js/main.8263e246.js"
   ]
 }
