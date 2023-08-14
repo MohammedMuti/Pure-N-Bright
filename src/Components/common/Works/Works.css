@@ -23,9 +23,8 @@ img {
   width: 100%;
 }
 
-.heading {
+.work .heading {
   font-size: 3rem;
-  margin-top: 0.5rem;
   margin-bottom: 2rem;
   color: #ffb400;
 }
