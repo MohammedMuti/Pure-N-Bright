@@ -35,8 +35,8 @@ const Review = () => {
                 <div className="swiper-slide slide">
                   <p>
                     Rug came up like new which was better than I expected as it
-                    was well used. The whole process was very easy with the pick
-                    up and drop off service.
+                    was well used. The whole process was very easy and organised
+                    with the pick up and drop off service.
                     <br />
                     <br />
                     <a
@@ -78,7 +78,7 @@ const Review = () => {
                   <p>
                     I had my large rug cleaned and was very pleased with the
                     service. The pickup and drop off option were a lifesaver and
-                    the rug came back beautifully clean and odour-free.
+                    the rug came back beautifully clean.
                     <br />
                     <br />
                     <a

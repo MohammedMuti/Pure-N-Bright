@@ -4,6 +4,7 @@ import Contact from "../../common/Contact/Contact";
 import Footer from "../../common/Footer/Footer";
 import Navbar from "../../common/navbar/navbar";
 import Review from "../../common/Review/Review";
+import Works from "../../common/Works/Works";
 import "./Home.css";
 
 const Home = () => {
@@ -84,6 +85,30 @@ const Home = () => {
           </div>
         </div>
 
+        <div className="choose_us section">
+          <div className="choose_us heading">
+            <h2>Why Choose Us...?</h2>
+          </div>
+          <div className="choose_us content">
+            <div className="choose_us info">
+              <ul>
+                <li>HASSLE FREE PICKUP & DROP OFF</li>
+                <li>QUALITY SERVICES</li>
+                <li>ECONOMICAL</li>
+                <li>SANITIZATION & DISINFECTION</li>
+                <li>HEALTHY ENVIRONMENT</li>
+                <li>NEW LOOK</li>
+              </ul>
+            </div>
+            <div className="choose_us img">
+              <img
+                src={require("../../../Assets/Images/Choose/choose1.webp")}
+                alt=""
+              />
+            </div>
+          </div>
+        </div>
+
         <div className="protect section">
           <div className="protect heading"></div>
           <div className="protect content">
@@ -101,6 +126,15 @@ const Home = () => {
                 alt=""
               />
             </div>
+          </div>
+        </div>
+
+        <div className="work section">
+          <div className="work heading">
+            <h2>Our Recent Works</h2>
+          </div>
+          <div className="work content">
+            <Works />
           </div>
         </div>
 

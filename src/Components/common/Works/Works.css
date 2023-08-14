@@ -18,4 +18,15 @@ p {
   font-size: 2rem;
   font-family: "Montserrat";
 }
-/*# sourceMappingURL=variables.css.map */
+
+img {
+  width: 100%;
+}
+
+.heading {
+  font-size: 3rem;
+  margin-top: 0.5rem;
+  margin-bottom: 2rem;
+  color: #ffb400;
+}
+/*# sourceMappingURL=Works.css.map */
