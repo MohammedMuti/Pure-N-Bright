@@ -1,0 +1,61 @@
+@import "../../common/variables/variables.scss";
+
+.faq {
+  padding: 5rem 15%;
+
+  @media (max-width: 1200px) {
+    padding: 5rem 7%;
+  }
+  @media (max-width: 800px) {
+    padding: 5rem 2rem;
+  }
+
+  .lists {
+    .questions {
+      border: solid 0.5px rgb(187, 237, 246);
+      margin-bottom: 3rem;
+      .question {
+        cursor: pointer;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin: 0rem 3rem;
+        padding: 2rem 0rem;
+        // border-bottom: 1px solid $purple;
+        h4 {
+          font-size: 2.5rem;
+
+          @media (max-width: 500px) {
+            font-size: 2rem;
+          }
+        }
+
+        svg {
+          font-size: 3.5rem;
+          padding-left: 2rem;
+          color: $purple;
+        }
+      }
+
+      .answer {
+        background-color: #eee;
+        height: 0px;
+        overflow: hidden;
+        transition: height 0.5s ease;
+        width: 100%;
+        h4 {
+          padding: 2rem 3rem;
+          font-size: 2rem;
+
+          @media (max-width: 500px) {
+            font-size: 1.5rem;
+          }
+        }
+      }
+      .answer.active {
+        height: 14rem;
+        overflow: auto;
+      }
+    }
+  }
+}

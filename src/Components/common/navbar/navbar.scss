@@ -28,9 +28,10 @@
     .navbar_lists {
       display: flex;
       align-items: center;
-      svg {
+      .up_down {
         color: white;
         font-size: 3rem;
+        cursor: pointer;
         display: none;
         @media (max-width: 750px) {
           display: block;
@@ -46,13 +47,14 @@
         list-style-type: none;
         gap: 5px;
         margin-right: 5px;
+        transition: 0.5s linear;
 
         @media (max-width: 750px) {
           display: flex;
           flex-direction: column;
           align-items: flex-start;
           position: absolute;
-          background-color: rgba(0, 0, 0, 0.5);
+          background-color: rgba(0, 0, 0, 0.9);
           top: 100px;
           left: 0;
           right: 0;
@@ -61,17 +63,75 @@
           // border-top: 1px solid rgb(179, 179, 179);
           border-bottom: 1px solid rgb(179, 179, 179);
           clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
-          transition: 0.2s linear;
+          transition: 0.5s linear;
+        }
+
+        .nav-service-Links {
+          font-size: 2.5rem;
+          color: black;
+          text-transform: capitalize;
+          margin: 0 1rem;
+          list-style-type: none;
+        }
+
+        .sublinks {
+          position: relative;
+
+          .drop-down-nav {
+            list-style-type: none;
+            overflow: hidden;
+            height: 0px;
+            transition: height 0.5s ease;
+            position: absolute;
+            color: white;
+            background-color: rgba(0, 0, 0, 0.5);
+            // padding-top: 10px;
+            list-style-type: none;
+            width: max-content;
+            left: 0px;
+            top: 5.1rem;
+
+            &.active {
+              height: 9.5rem;
+              overflow: auto;
+            }
+
+            li {
+              font-size: 2rem;
+            }
+
+            @media (max-width: 750px) {
+              position: relative;
+              width: 100%;
+              top: 1rem;
+            }
+          }
+
+          svg {
+            font-size: 2rem;
+            margin-left: 0.5rem;
+          }
         }
 
         li {
           padding: 10px;
+
+          font-family: "Montserrat", Sans-serif;
           font-size: 2.5rem;
           color: white;
           cursor: pointer;
           &:hover {
-            background-color: $nav-bg;
+            background-color: #eee;
+            color: black;
           }
+
+          a {
+            // padding: 10px;
+            width: 100%;
+            display: block;
+            height: 100%;
+          }
+
           @media (max-width: 750px) {
             width: 100%;
           }
@@ -82,7 +142,7 @@
         .navbar_list_items.active {
           padding-left: 2rem;
           clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
-          transition: 0.2s linear;
+          transition: 0.5s linear;
         }
       }
     }

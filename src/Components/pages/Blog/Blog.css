@@ -1,0 +1,79 @@
+.blogs {
+  padding: 5rem 15%;
+}
+
+@media (max-width: 1200px) {
+  .blogs {
+    padding: 5rem 7%;
+  }
+}
+
+@media (max-width: 800px) {
+  .blogs {
+    padding: 5rem 2rem;
+  }
+}
+
+.blogs .blog.content {
+  grid-gap: 2rem;
+  display: -ms-grid;
+  display: grid;
+  gap: 2rem;
+  -ms-grid-columns: (minmax(30rem, 1fr))[auto-fit];
+      grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
+}
+
+.blogs .blog.content .blog {
+  background-color: #eee;
+  overflow: hidden;
+}
+
+.blogs .blog.content .blog .blog.img {
+  overflow: hidden;
+}
+
+.blogs .blog.content .blog .blog.img img {
+  cursor: pointer;
+  width: 100%;
+  -webkit-transition: 0.2s linear;
+  transition: 0.2s linear;
+  max-height: 40rem;
+}
+
+.blogs .blog.content .blog .blog.img img:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
+
+.blogs .blog.content .blog .blog.info {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin: 2rem;
+  min-height: 12rem;
+}
+
+.blogs .blog.content .blog .blog.info h4 {
+  font-size: 2rem;
+}
+
+.blogs .blog.content .blog .blog.info button {
+  font-size: 1.5rem;
+  cursor: pointer;
+  -ms-flex-item-align: start;
+      align-self: flex-start;
+}
+
+.blogs .blog.content .blog .blog.info button:hover {
+  background-color: #333;
+  border: none;
+  color: #eee;
+}
+/*# sourceMappingURL=Blog.css.map */

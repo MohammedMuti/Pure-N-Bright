@@ -1,6 +1,6 @@
 import { faPhone } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import Contact from "../../common/Contact/Contact";
+import ContactComponent from "../../common/Contact/ContactComponent";
 import Footer from "../../common/Footer/Footer";
 import Navbar from "../../common/navbar/navbar";
 import Review from "../../common/Review/Review";
@@ -52,6 +52,45 @@ const Home = () => {
                 src={require("../../../Assets/Images/Dilivery/delivery2.jpg")}
                 alt=""
               />
+            </div>
+          </div>
+        </div>
+
+        <div className="methods section">
+          <div className="methods heading">
+            <h2>Methods of Cleaning</h2>
+          </div>
+          <div className="methods content">
+            <div className="methods info">
+              <div className="methods type">
+                <div className="methods type img">
+                  <img
+                    src={require("../../../Assets/Images/Methods/FactoryDeepWashing.png")}
+                    alt=""
+                  />
+                </div>
+                <div className="methods type title">Factory Deep Washing</div>
+              </div>
+
+              <div className="methods type">
+                <div className="methods type img">
+                  <img
+                    src={require("../../../Assets/Images/Methods/HandCleaning.jpg")}
+                    alt=""
+                  />
+                </div>
+                <div className="methods type title">Hand Cleaning</div>
+              </div>
+
+              <div className="methods type">
+                <div className="methods type img">
+                  <img
+                    src={require("../../../Assets/Images/Methods/StemCleaning.jpg")}
+                    alt=""
+                  />
+                </div>
+                <div className="methods type title">Stem Cleaning</div>
+              </div>
             </div>
           </div>
         </div>
@@ -138,26 +177,7 @@ const Home = () => {
           </div>
         </div>
 
-        <div className="contact section">
-          <div className="contact heading">
-            <h2>We're Here To Help...</h2>
-          </div>
-          <div className="contact content">
-            <div className="contact img">
-              <img
-                src={require("../../../Assets/Images/Contact/contact.jpeg")}
-                alt=""
-              />
-            </div>
-            <div className="contact info">
-              <Contact />
-            </div>
-            {/* <div className="contact info"></div>
-            <div className="contact img">
-
-            </div> */}
-          </div>
-        </div>
+        <ContactComponent />
 
         <Footer />
         {/* <div className="footer section">

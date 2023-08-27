@@ -1,0 +1,122 @@
+h2 {
+  font-size: 3rem;
+}
+
+h3 {
+  font-size: 2.5rem;
+  color: #ffcf60;
+}
+
+h1 {
+  font-size: 4rem;
+  color: #ffb400;
+  font-family: "Rockwell";
+}
+
+p,
+li {
+  color: #646464;
+  font-size: 2rem;
+  font-family: "Montserrat";
+}
+
+.services {
+  padding: 5rem 15%;
+}
+
+@media (max-width: 1200px) {
+  .services {
+    padding: 5rem 7%;
+  }
+}
+
+@media (max-width: 800px) {
+  .services {
+    padding: 5rem 2rem;
+  }
+}
+
+.services .heading {
+  margin-bottom: 2rem;
+}
+
+.services .heading h2 {
+  color: #c047c0;
+  font-size: 4rem;
+}
+
+.services .content {
+  grid-gap: 2rem;
+  display: -ms-grid;
+  display: grid;
+  gap: 10rem;
+  -ms-grid-columns: (minmax(30rem, 1fr))[auto-fit];
+      grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
+}
+
+.services .content .service {
+  cursor: pointer;
+  position: relative;
+  -webkit-box-shadow: 0px 0px 20px -8px;
+          box-shadow: 0px 0px 20px -8px;
+  -webkit-transition: height 0.5s ease;
+  transition: height 0.5s ease;
+}
+
+.services .content .service.active .info {
+  background-color: rgba(238, 238, 238, 0.717);
+  height: 23rem;
+}
+
+.services .content .service.active .info .more {
+  display: block;
+  overflow: auto;
+  -webkit-transition: all 1s ease-in-out;
+  transition: all 1s ease-in-out;
+  opacity: 1;
+}
+
+.services .content .service img {
+  max-width: 100%;
+  border-radius: 5px;
+  max-height: 40rem;
+  cursor: pointer;
+}
+
+.services .content .service .info {
+  text-align: center;
+  background-color: #eee;
+  height: 10rem;
+  width: 100%;
+  position: absolute;
+  bottom: 0%;
+  overflow: hidden;
+  padding-top: 3rem;
+  -webkit-transition: all 1s ease-in-out;
+  transition: all 1s ease-in-out;
+}
+
+.services .content .service .info .more {
+  -webkit-transition: all 1s ease-in-out;
+  transition: all 1s ease-in-out;
+  margin-top: 1rem;
+  opacity: 0;
+}
+
+.services .content .service .info .more h2 {
+  font-size: 2.5rem;
+}
+
+.services .content .service .info .more button {
+  font-size: 2.5rem;
+  background-color: #c047c0;
+  border: none;
+  border-radius: 5px;
+  margin-top: 1rem;
+  cursor: pointer;
+}
+
+.services .content .service .info .more button:hover {
+  background-color: #d272d2;
+}
+/*# sourceMappingURL=Services.css.map */

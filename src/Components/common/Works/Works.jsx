@@ -1,5 +1,3 @@
-import { faStar } from "@fortawesome/free-solid-svg-icons";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import "swiper/swiper-bundle.css";
 import "swiper/swiper.min.css";
 import { Swiper, SwiperSlide } from "swiper/react";

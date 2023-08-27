@@ -1,0 +1,99 @@
+h2 {
+  font-size: 3rem;
+}
+
+h3 {
+  font-size: 2.5rem;
+  color: #ffcf60;
+}
+
+h1 {
+  font-size: 4rem;
+  color: #ffb400;
+  font-family: "Rockwell";
+}
+
+p,
+li {
+  color: #646464;
+  font-size: 2rem;
+  font-family: "Montserrat";
+}
+
+.faq {
+  padding: 5rem 15%;
+}
+
+@media (max-width: 1200px) {
+  .faq {
+    padding: 5rem 7%;
+  }
+}
+
+@media (max-width: 800px) {
+  .faq {
+    padding: 5rem 2rem;
+  }
+}
+
+.faq .lists .questions {
+  border: solid 0.5px #bbedf6;
+  margin-bottom: 3rem;
+}
+
+.faq .lists .questions .question {
+  cursor: pointer;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin: 0rem 3rem;
+  padding: 2rem 0rem;
+}
+
+.faq .lists .questions .question h4 {
+  font-size: 2.5rem;
+}
+
+@media (max-width: 500px) {
+  .faq .lists .questions .question h4 {
+    font-size: 2rem;
+  }
+}
+
+.faq .lists .questions .question svg {
+  font-size: 3.5rem;
+  padding-left: 2rem;
+  color: #c047c0;
+}
+
+.faq .lists .questions .answer {
+  background-color: #eee;
+  height: 0px;
+  overflow: hidden;
+  -webkit-transition: height 0.5s ease;
+  transition: height 0.5s ease;
+  width: 100%;
+}
+
+.faq .lists .questions .answer h4 {
+  padding: 2rem 3rem;
+  font-size: 2rem;
+}
+
+@media (max-width: 500px) {
+  .faq .lists .questions .answer h4 {
+    font-size: 1.5rem;
+  }
+}
+
+.faq .lists .questions .answer.active {
+  height: 14rem;
+  overflow: auto;
+}
+/*# sourceMappingURL=FAQ.css.map */

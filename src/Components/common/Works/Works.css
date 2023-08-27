@@ -13,7 +13,8 @@ h1 {
   font-family: "Rockwell";
 }
 
-p {
+p,
+li {
   color: #646464;
   font-size: 2rem;
   font-family: "Montserrat";

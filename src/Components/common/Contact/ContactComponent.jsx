@@ -1,7 +1,8 @@
 import { useState } from "react";
 import "./Contact.css";
+import "../../pages/Home/Home.css";
 
-const Contact = () => {
+const ContactComp = () => {
   const [fullNameError, setFullNameError] = useState("");
   const [emailError, setEmailError] = useState("");
   const [phoneError, setPhoneError] = useState();
@@ -196,72 +197,95 @@ const Contact = () => {
 
   return (
     <>
-      <section className="contact" id="contact">
-        <h1 className="heading"> Contact Us </h1>
-        <div className="row">
-          <form onSubmit={submitEmail} action="">
-            <input
-              type="text"
-              placeholder="Name"
-              name="fullName"
-              className="box"
-              value={mailerState.fullName}
-              onChange={handleStateChange}
+      <div className="contact section">
+        <div className="contact heading">
+          <h2>We're Here To Help...</h2>
+        </div>
+        <div className="contact content">
+          <div className="contact img">
+            <img
+              src={require("../../../Assets/Images/Contact/contact.jpeg")}
+              alt=""
             />
-            {fullNameError ? (
-              <p className="errorMessage">{fullNameError}</p>
-            ) : null}
+          </div>
+          <div className="contact info">
+            <section className="contact1" id="contact">
+              <h1 className="heading"> Contact Us </h1>
+              <div className="row">
+                <form onSubmit={submitEmail} action="">
+                  <input
+                    type="text"
+                    placeholder="Name"
+                    name="fullName"
+                    className="box"
+                    value={mailerState.fullName}
+                    onChange={handleStateChange}
+                  />
+                  {fullNameError ? (
+                    <p className="errorMessage">{fullNameError}</p>
+                  ) : null}
 
-            <input
-              type="email"
-              placeholder="Email"
-              name="email"
-              className="box"
-              value={mailerState.email}
-              onChange={handleStateChange}
-            />
-            {emailError ? <p className="errorMessage">{emailError}</p> : null}
+                  <input
+                    type="email"
+                    placeholder="Email"
+                    name="email"
+                    className="box"
+                    value={mailerState.email}
+                    onChange={handleStateChange}
+                  />
+                  {emailError ? (
+                    <p className="errorMessage">{emailError}</p>
+                  ) : null}
 
-            <input
-              type="number"
-              placeholder="Phone"
-              name="phone"
-              className="box"
-              value={mailerState.phone}
-              onChange={handleStateChange}
-            />
-            {phoneError ? <p className="errorMessage">{phoneError}</p> : null}
+                  <input
+                    type="number"
+                    placeholder="Phone"
+                    name="phone"
+                    className="box"
+                    value={mailerState.phone}
+                    onChange={handleStateChange}
+                  />
+                  {phoneError ? (
+                    <p className="errorMessage">{phoneError}</p>
+                  ) : null}
 
-            <textarea
-              name="message"
-              placeholder="Message"
-              className="box"
-              id=""
-              cols="30"
-              rows="10"
-              value={mailerState.message}
-              onChange={handleStateChange}
-            />
-            {messageError ? (
-              <p className="errorMessage">{messageError}</p>
-            ) : null}
+                  <textarea
+                    name="message"
+                    placeholder="Message"
+                    className="box"
+                    id=""
+                    cols="30"
+                    rows="10"
+                    value={mailerState.message}
+                    onChange={handleStateChange}
+                  />
+                  {messageError ? (
+                    <p className="errorMessage">{messageError}</p>
+                  ) : null}
 
-            <div
-              style={{ transformOrigin: "0 0", width: "100%" }}
-              className="captcha"
-            >
-              {/* <ReCAPTCHA
+                  <div
+                    style={{ transformOrigin: "0 0", width: "100%" }}
+                    className="captcha"
+                  >
+                    {/* <ReCAPTCHA
                 sitekey="6LePrU4kAAAAAJtpRmNFy9i-u7PNdMnjp-PIeAsP"
                 onChange={onChange}
               /> */}
-            </div>
+                  </div>
 
-            <input type="submit" value="send message" className="btn" />
-          </form>
+                  <input type="submit" value="send message" className="btn" />
+                </form>
+              </div>
+            </section>
+          </div>
+          {/* <div className="contact info"></div>
+            <div className="contact img">
+
+            </div> */}
         </div>
-      </section>
+      </div>
     </>
   );
 };
 
-export default Contact;
+export default ContactComp;

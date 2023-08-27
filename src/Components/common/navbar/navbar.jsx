@@ -5,6 +5,7 @@ import { faBars, faMultiply } from "@fortawesome/free-solid-svg-icons";
 import logo from "../../../Assets/Images/Logo/Pure-N-Bright-Logo.png.webp";
 import "./navbar.css";
 import React from "react";
+import SubBars from "./SubBars";
 
 const Navbar = () => {
   const [click, setClick] = useState(true);
@@ -53,62 +54,70 @@ const Navbar = () => {
       >
         <div className="navbar_wrapper">
           <div className="navbar_logo">
-            <img src={logo} alt="" />
+            <Link to={"/"}>
+              <img src={logo} alt="" />
+            </Link>
           </div>
           <div className="navbar_lists">
             {click ? (
-              <FontAwesomeIcon onClick={handleClick} icon={faBars} />
+              <FontAwesomeIcon
+                className="up_down"
+                onClick={handleClick}
+                icon={faBars}
+              />
             ) : (
-              <FontAwesomeIcon onClick={handleClick} icon={faMultiply} />
+              <FontAwesomeIcon
+                className="up_down"
+                onClick={handleClick}
+                icon={faMultiply}
+              />
             )}
             <ul
               className={
                 click ? "navbar_list_items" : "navbar_list_items active"
               }
             >
-              <li>About Us</li>
               <li>
-                <Link to="/">Contact Us</Link>
+                <Link to={"/blog"}>Blog</Link>
               </li>
+
+              <SubBars
+                title="Services"
+                titleLink="/services"
+                opt={[
+                  {
+                    name: "Carpet Cleaning Melbourne",
+                    link: "/services/carpet-cleaning-melbourne",
+                  },
+                  {
+                    name: "Rug Cleaning Melbourne",
+                    link: "/services/rug-cleaning-melbourne",
+                  },
+                ]}
+              />
+              <SubBars
+                title="Why Us?"
+                titleLink="/why-us"
+                opt={[
+                  {
+                    name: "FAQ",
+                    link: "/faq",
+                  },
+                  {
+                    name: "Terms and Conditions",
+                    link: "/terms-and-conditions",
+                  },
+                ]}
+              />
+
               <li>Gallery</li>
-              <li>Projects</li>
+
+              <li>
+                <Link to="/contact-us">Contact</Link>
+              </li>
             </ul>
           </div>
         </div>
-        {/* <div className="navbar-container">
-          <div className="navbar-menu">
-            <FontAwesomeIcon icon={faBars} />
-          </div>
-          <div className="navbar-image">
-            <img src={svg} alt="" />
-          </div>
-          <div className="navbar-links">
-            <ul className={click ? "lists" : "active"}>
-              <li>
-                <Link to="">Home</Link>
-              </li>
-              <li>
-                <Link to="">Home</Link>
-              </li>
-              <li>
-                <Link to="">Home</Link>
-              </li>
-              <li>
-                <Link to="">Home</Link>
-              </li>
-              <li>
-                <Link to="">Home</Link>
-              </li>
-            </ul>
-            <button className="bars-btn" onClick={handleClick}>
-              btn
-            </button>
-          </div>
-          <div className="button">
-            <FontAwesomeIcon icon={faPhone} />
-            <button>Call-Now</button>
-          </div>
-        </div> */}
       </div>
     </>
   );
