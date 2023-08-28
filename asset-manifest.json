@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Pure-N-Bright/static/css/main.30af1b38.css",
-    "main.js": "/Pure-N-Bright/static/js/main.81a517e7.js",
+    "main.css": "/Pure-N-Bright/static/css/main.552b15fa.css",
+    "main.js": "/Pure-N-Bright/static/js/main.307c802b.js",
     "static/media/3.jpg": "/Pure-N-Bright/static/media/3.b93577ca6407ffbd515e.jpg",
     "static/media/work1.png": "/Pure-N-Bright/static/media/work1.2f42c85503ee8617750c.png",
     "static/media/work3.png": "/Pure-N-Bright/static/media/work3.4eea71b88e8d545001fe.png",
@@ -21,6 +21,7 @@
     "static/media/choose1.webp": "/Pure-N-Bright/static/media/choose1.ce1a8b07e6ab978feda3.webp",
     "static/media/clean.jpg": "/Pure-N-Bright/static/media/clean.3cdfc2d6c386f5dfff35.jpg",
     "static/media/steam.jpg": "/Pure-N-Bright/static/media/steam.3cdfc2d6c386f5dfff35.jpg",
+    "static/media/Sheep.jpg": "/Pure-N-Bright/static/media/Sheep.45223b4ad4983760bda0.jpg",
     "static/media/professional.jpg": "/Pure-N-Bright/static/media/professional.954501e355781b61bbc2.jpg",
     "static/media/soda.jpg": "/Pure-N-Bright/static/media/soda.954501e355781b61bbc2.jpg",
     "static/media/tips.jpg": "/Pure-N-Bright/static/media/tips.954501e355781b61bbc2.jpg",
@@ -33,11 +34,11 @@
     "static/media/1.webp": "/Pure-N-Bright/static/media/1.baefdbd5a105e7f368c3.webp",
     "static/media/Pure-N-Bright-Logo.png.webp": "/Pure-N-Bright/static/media/Pure-N-Bright-Logo.png.abf0916acbed2e550e4c.webp",
     "index.html": "/Pure-N-Bright/index.html",
-    "main.30af1b38.css.map": "/Pure-N-Bright/static/css/main.30af1b38.css.map",
-    "main.81a517e7.js.map": "/Pure-N-Bright/static/js/main.81a517e7.js.map"
+    "main.552b15fa.css.map": "/Pure-N-Bright/static/css/main.552b15fa.css.map",
+    "main.307c802b.js.map": "/Pure-N-Bright/static/js/main.307c802b.js.map"
   },
   "entrypoints": [
-    "static/css/main.30af1b38.css",
-    "static/js/main.81a517e7.js"
+    "static/css/main.552b15fa.css",
+    "static/js/main.307c802b.js"
   ]
 }
