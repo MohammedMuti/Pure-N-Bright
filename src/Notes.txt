@@ -9,3 +9,7 @@ why us                      --Done
 services                    --Done
 carpet Cleaning             --A Done
 Navbar
+
+
+Go to BlogPage component in line 11 & 13, the paths may be diffrent 
+after they are deployed.
