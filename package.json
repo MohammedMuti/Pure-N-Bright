@@ -10,13 +10,16 @@
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
+    "lightbox.js-react": "^0.7.7",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-router-dom": "^6.14.2",
     "react-scripts": "5.0.1",
+    "react-simple-image-viewer": "^1.2.2",
     "react-ts-typewriter": "^0.1.8-b",
     "swiper": "^8.4.7",
-    "web-vitals": "^2.1.4"
+    "web-vitals": "^2.1.4",
+    "yet-another-react-lightbox": "^3.12.1"
   },
   "scripts": {
     "start": "react-scripts start",

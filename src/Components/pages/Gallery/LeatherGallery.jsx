@@ -9,7 +9,7 @@ const LeatherGallery = () => {
     <>
       <Navbar />
       <Banner sublink="Gallery" sublink2="Leather Cleaning Gallery" />
-      <GallerySubComp />
+      <GallerySubComp title="Leather" />
       <ContactComp />
       <Footer />
     </>
