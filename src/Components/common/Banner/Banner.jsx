@@ -16,14 +16,13 @@ const Banner = (props) => {
         className="banner"
         style={{
           backgroundImage: `url(${
-            props.background ||
-            require("../../../Assets/Images/Back-ground/3.jpg")
+            props.background || require("../../../Assets/Images/Back/1.avif")
           })`,
         }}
       >
         <div className="banner-content">
           <div className="banner-title">
-            <h1>{props.title}</h1>
+            <h1>{props.sublink2 ? props.sublink2 : props.sublink}</h1>
           </div>
         </div>
       </div>

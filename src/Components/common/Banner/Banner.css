@@ -36,6 +36,12 @@ li {
           justify-content: center;
 }
 
+@media (max-width: 600px) {
+  .banner {
+    height: 20rem;
+  }
+}
+
 .banner .banner-content .banner-title h1 {
   color: #ffb400;
   font-size: 4rem;
