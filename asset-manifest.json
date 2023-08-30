@@ -1,8 +1,7 @@
 {
   "files": {
-    "main.css": "/Pure-N-Bright/static/css/main.d5e40ce2.css",
-    "main.js": "/Pure-N-Bright/static/js/main.cd1066b4.js",
-    "static/media/3.jpg": "/Pure-N-Bright/static/media/3.b93577ca6407ffbd515e.jpg",
+    "main.css": "/Pure-N-Bright/static/css/main.8853a6e2.css",
+    "main.js": "/Pure-N-Bright/static/js/main.f67f4225.js",
     "static/media/work1.png": "/Pure-N-Bright/static/media/work1.2f42c85503ee8617750c.png",
     "static/media/work3.png": "/Pure-N-Bright/static/media/work3.4eea71b88e8d545001fe.png",
     "static/media/19.jpg": "/Pure-N-Bright/static/media/19.d1a0a61bc311d45523d0.jpg",
@@ -13,6 +12,7 @@
     "static/media/21.jpeg": "/Pure-N-Bright/static/media/21.8aebde74eed778affbb2.jpeg",
     "static/media/22.jpeg": "/Pure-N-Bright/static/media/22.61b363a20d109273ef8e.jpeg",
     "static/media/carpet_cleaning.jpg": "/Pure-N-Bright/static/media/carpet_cleaning.ad6a228ae15834d67d87.jpg",
+    "static/media/1.avif": "/Pure-N-Bright/static/media/1.53a88ea01044925e46bc.avif",
     "static/media/rug_cleaning.jpg": "/Pure-N-Bright/static/media/rug_cleaning.e3ad664a8700c4c2b407.jpg",
     "static/media/types3.jpg": "/Pure-N-Bright/static/media/types3.9c737e4a9e35212f4806.jpg",
     "static/media/carpet.webp": "/Pure-N-Bright/static/media/carpet.6650aa192d45cc179340.webp",
@@ -21,6 +21,7 @@
     "static/media/8.jpg": "/Pure-N-Bright/static/media/8.72477c25e68b6b1be013.jpg",
     "static/media/work2.jpeg": "/Pure-N-Bright/static/media/work2.2896272bed8b1d379fad.jpeg",
     "static/media/FactoryDeepWashing.png": "/Pure-N-Bright/static/media/FactoryDeepWashing.35bc767139e4eac7ff41.png",
+    "static/media/3.jpg": "/Pure-N-Bright/static/media/3.b93577ca6407ffbd515e.jpg",
     "static/media/14.jpg": "/Pure-N-Bright/static/media/14.056133e1d19e8d22658c.jpg",
     "static/media/10.jpg": "/Pure-N-Bright/static/media/10.faeb9dba6e4157b2a774.jpg",
     "static/media/11.jpg": "/Pure-N-Bright/static/media/11.457f4cb072607a140af1.jpg",
@@ -82,11 +83,11 @@
     "static/media/Pure-N-Bright-Logo.png.webp": "/Pure-N-Bright/static/media/Pure-N-Bright-Logo.png.abf0916acbed2e550e4c.webp",
     "static/media/googleBadge.webp": "/Pure-N-Bright/static/media/googleBadge.fdc365d9b010e5f708ea.webp",
     "index.html": "/Pure-N-Bright/index.html",
-    "main.d5e40ce2.css.map": "/Pure-N-Bright/static/css/main.d5e40ce2.css.map",
-    "main.cd1066b4.js.map": "/Pure-N-Bright/static/js/main.cd1066b4.js.map"
+    "main.8853a6e2.css.map": "/Pure-N-Bright/static/css/main.8853a6e2.css.map",
+    "main.f67f4225.js.map": "/Pure-N-Bright/static/js/main.f67f4225.js.map"
   },
   "entrypoints": [
-    "static/css/main.d5e40ce2.css",
-    "static/js/main.cd1066b4.js"
+    "static/css/main.8853a6e2.css",
+    "static/js/main.f67f4225.js"
   ]
 }
