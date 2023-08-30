@@ -1,0 +1,55 @@
+@import "../../common//variables/variables.scss";
+
+.gallery {
+  padding: 5rem 15%;
+
+  @media (max-width: 1200px) {
+    padding: 5rem 7%;
+  }
+  @media (max-width: 800px) {
+    padding: 5rem 2rem;
+  }
+
+  .gallery_wrapper {
+    grid-gap: 2rem;
+    display: grid;
+    gap: 4rem;
+    grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
+
+    .gallery_box {
+      box-shadow: 0px 0px 20px -8px;
+      border-radius: 5px;
+      .gallery_img {
+        img {
+          cursor: pointer;
+          width: 100%;
+          min-height: 25rem;
+          border-top-left-radius: 5px;
+          border-top-right-radius: 5px;
+        }
+      }
+
+      .gallery_title {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: #eee;
+        min-height: 10rem;
+        transition: 0.2s ease-in;
+        border-bottom-left-radius: 5px;
+        border-bottom-right-radius: 5px;
+        h2 {
+          font-size: 2.5rem;
+          cursor: pointer;
+          text-transform: uppercase;
+          text-align: center;
+        }
+
+        &:hover {
+          background-color: #333;
+          color: white;
+        }
+      }
+    }
+  }
+}

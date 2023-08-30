@@ -181,12 +181,6 @@ li {
   color: black;
 }
 
-.navbar .navbar_wrapper .navbar_lists .navbar_list_items li a {
-  width: 100%;
-  display: block;
-  height: 100%;
-}
-
 @media (max-width: 750px) {
   .navbar .navbar_wrapper .navbar_lists .navbar_list_items li {
     width: 100%;

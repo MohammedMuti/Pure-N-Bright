@@ -1,4 +1,4 @@
-Blog
+Blog                        --Done
 Contact                     --A Done
 FAQ                         --A Done
 Gallery - Rug Cleaning 
@@ -8,7 +8,7 @@ Thankyou                    --A Done
 why us                      --Done
 services                    --Done
 carpet Cleaning             --A Done
-Navbar
+Navbar                      --Done
 
 
 Go to BlogPage component in line 11 & 13, the paths may be diffrent 

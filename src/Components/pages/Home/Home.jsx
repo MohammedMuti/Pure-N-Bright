@@ -5,7 +5,9 @@ import Footer from "../../common/Footer/Footer";
 import Navbar from "../../common/navbar/navbar";
 import Review from "../../common/Review/Review";
 import Works from "../../common/Works/Works";
+import Typewriter from "react-ts-typewriter";
 import "./Home.css";
+import { Link } from "react-router-dom";
 
 const Home = () => {
   return (
@@ -15,9 +17,23 @@ const Home = () => {
         <div className="main_banner">
           <div className="main_banner_content">
             <h1>PURE N BRIGHT </h1>
-            <h3>High Quality Rug Cleaning Service</h3>
-            <p>At Affordable Prices</p>
-            <button>Know More</button>
+            <h3>High Quality Rug Cleaning | Repair | Restoration Services</h3>
+            <h4>
+              <Typewriter
+                loop={true}
+                speed={40}
+                text="Trusted | 10+ Years of Experience | On-Time Delivery"
+                delay={1000}
+                random={100}
+              />
+            </h4>
+            <Link
+              to={
+                "https://www.google.com/search?q=pure+n+bright&sca_esv=561015036&rlz=1C1GCEO_enIN1023IN1023&ei=8QDuZMXPLojuseMPuYyO-AQ&ved=0ahUKEwiFjKSvioKBAxUId2wGHTmGA08Q4dUDCA8&uact=5&oq=pure+n+bright&gs_lp=Egxnd3Mtd2l6LXNlcnAiDXB1cmUgbiBicmlnaHQyBRAAGIAEMgUQABiABDIGEAAYFhgeMgYQABgWGB4yBhAAGBYYHjIGEAAYFhgeMgYQABgWGB4yBhAAGBYYHjIGEAAYFhgeMgYQABgWGB5IumlQAFjXZ3AIeAGQAQCYAYgBoAHGFaoBBDQuMjG4AQPIAQD4AQHCAgcQABiKBRhDwgILEAAYigUYsQMYgwHCAgsQABiABBixAxiDAcICDhAAGIoFGLEDGIMBGJECwgINEC4YigUYsQMYgwEYQ8ICCBAAGIoFGJECwgIIEAAYgAQYsQPCAggQABiABBjJA8ICCBAAGIoFGJIDwgIREC4YgAQYsQMYgwEYxwEYrwHCAhEQLhiABBixAxiDARjHARjRA8ICCxAAGIoFGLEDGJECwgIIEAAYigUYsQPCAgsQLhiABBjHARivAcICCxAuGK8BGMcBGIAEwgIHEAAYDRiABMICCBAAGIoFGIYDwgIGEAAYHhgNwgIIEAAYHhgNGA_iAwQYACBBiAYB&sclient=gws-wiz-serp#lrd=0x6ad61d8ad97d9141:0x22fb7df3fb0d7bf6,1,,,,"
+              }
+            >
+              <img src={require("../../../Assets/googleBadge.webp")} alt="" />
+            </Link>
           </div>
         </div>
 

@@ -9,6 +9,12 @@ import WhyUs from "./Components/pages/WhyUs/WhyUs";
 import Services from "./Components/pages/Services/Services";
 import CarpetService from "./Components/pages/Services/CarpetService";
 import BlogPageComp from "./Components/pages/Blog/BlogPageComp";
+import Gallery from "./Components/pages/Gallery/Gallery";
+import CarpetGallery from "./Components/pages/Gallery/CarpetGallery";
+import RugGallery from "./Components/pages/Gallery/RugGallery";
+import UpholsteryGallery from "./Components/pages/Gallery/UpholsteryGallery";
+import LeatherGallery from "./Components/pages/Gallery/LeatherGallery";
+import TilesGallery from "./Components/pages/Gallery/TilesGallery";
 
 function App() {
   return (
@@ -18,6 +24,40 @@ function App() {
           <Route exact path="/" element={<Home />} />
           {/* Contact Us */}
           <Route exact path="/contact-us" element={<Contact />} />
+
+          {/* Gallery */}
+          <Route exact path="/gallery" element={<Gallery />} />
+          {/* carpet gallery */}
+          <Route
+            exact
+            path="/gallery/carpet-cleaning-gallery"
+            element={<CarpetGallery />}
+          />
+          {/* rug gallery */}
+          <Route
+            exact
+            path="/gallery/rug-cleaning-gallery"
+            element={<RugGallery />}
+          />
+          {/* upholstery gallery */}
+          <Route
+            exact
+            path="/gallery/upholstery-cleaning-gallery"
+            element={<UpholsteryGallery />}
+          />
+          {/* leather gallery */}
+          <Route
+            exact
+            path="/gallery/leather-cleaning-gallery"
+            element={<LeatherGallery />}
+          />
+          {/* tile gallery */}
+          <Route
+            exact
+            path="/gallery/tile-grout-cleaning-gallery"
+            element={<TilesGallery />}
+          />
+
           {/* Services */}
           <Route exact path="/services" element={<Services />} />
           {/* Carpet Service */}

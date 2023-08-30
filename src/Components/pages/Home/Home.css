@@ -91,6 +91,19 @@ li {
   font-weight: 800;
 }
 
+.home .main_banner .main_banner_content h4 {
+  color: white;
+  font-size: 3rem;
+}
+
+.home .main_banner .main_banner_content a {
+  width: 25rem;
+}
+
+.home .main_banner .main_banner_content a img {
+  width: 100%;
+}
+
 @-webkit-keyframes jump-shaking {
   0% {
     -webkit-transform: translateX(-20rem);

@@ -26,37 +26,36 @@ const SubBars = (props) => {
 
   return (
     <>
-      <li
-        className="sublinks"
-        onMouseLeave={setDropDownFalse}
-        onMouseEnter={setDropDownTrue}
-        onClick={handleDropDown}
-      >
-        <Link to={props.titleLink}>
+      <Link to={props.titleLink}>
+        <li
+          className="sublinks"
+          onMouseLeave={setDropDownFalse}
+          onMouseEnter={setDropDownTrue}
+          onClick={handleDropDown}
+        >
           {props.title}
           {dropDown ? (
             <FontAwesomeIcon icon={faChevronDown} />
           ) : (
             <FontAwesomeIcon icon={faChevronRight} />
           )}
-        </Link>
-        <ul
-          className={dropDown ? "drop-down-nav active" : "drop-down-nav"}
-          onMouseLeave={setDropDownFalse}
-        >
-          {/* {props.opt?.map((i) => {
+          <ul
+            className={dropDown ? "drop-down-nav active" : "drop-down-nav"}
+            onMouseLeave={setDropDownFalse}
+          >
+            {/* {props.opt?.map((i) => {
             console.log(i);
           })} */}
-          {props.opt
-            ? props.opt?.map((i) => {
-                return (
-                  <li>
-                    <Link to={i.link}>{i.name}</Link>
-                  </li>
-                );
-              })
-            : null}
-          {/* <li>
+            {props.opt
+              ? props.opt?.map((i) => {
+                  return (
+                    <Link to={i.link}>
+                      <li>{i.name}</li>
+                    </Link>
+                  );
+                })
+              : null}
+            {/* <li>
             <Link to={"/services/carpet-cleaning-melbourne"}>
               {props.option1}
             </Link>
@@ -64,8 +63,9 @@ const SubBars = (props) => {
           <li>
             <Link to={"/services/rug-cleaning-melbourne"}>{props.option1}</Link>
           </li> */}
-        </ul>
-      </li>
+          </ul>
+        </li>
+      </Link>
     </>
   );
 };

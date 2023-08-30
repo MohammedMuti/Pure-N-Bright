@@ -77,9 +77,9 @@ const Navbar = () => {
                 click ? "navbar_list_items" : "navbar_list_items active"
               }
             >
-              <li>
-                <Link to={"/blog"}>Blog</Link>
-              </li>
+              <Link to={"/blog"}>
+                <li>Blog</li>
+              </Link>
 
               <SubBars
                 title="Services"
@@ -109,12 +109,13 @@ const Navbar = () => {
                   },
                 ]}
               />
+              <Link to={"/gallery"}>
+                <li>Gallery</li>
+              </Link>
 
-              <li>Gallery</li>
-
-              <li>
-                <Link to="/contact-us">Contact</Link>
-              </li>
+              <Link to="/contact-us">
+                <li>Contact</li>
+              </Link>
             </ul>
           </div>
         </div>
