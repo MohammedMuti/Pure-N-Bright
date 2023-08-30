@@ -13,103 +13,112 @@ const CarpetGallery = () => {
         title="Carpet"
         images={[
           {
-            src: require("../../../Assets/Images/Gallery/Carpet/1.webp"),
+            src: require("../../../Assets/Images/Gallery/Carpet/1.jpg"),
           },
           {
-            src: require("../../../Assets/Images/Gallery/Carpet/2.webp"),
+            src: require("../../../Assets/Images/Gallery/Carpet/2.jpg"),
           },
           {
-            src: require("../../../Assets/Images/Gallery/Carpet/3.webp"),
+            src: require("../../../Assets/Images/Gallery/Carpet/3.jpg"),
           },
           {
-            src: require("../../../Assets/Images/Gallery/Carpet/4.webp"),
+            src: require("../../../Assets/Images/Gallery/Carpet/4.jpg"),
           },
           {
-            src: require("../../../Assets/Images/Gallery/Carpet/5.webp"),
+            src: require("../../../Assets/Images/Gallery/Carpet/5.jpg"),
           },
           {
-            src: require("../../../Assets/Images/Gallery/Carpet/6.webp"),
+            src: require("../../../Assets/Images/Gallery/Carpet/6.jpg"),
           },
           {
-            src: require("../../../Assets/Images/Gallery/Carpet/7.webp"),
+            src: require("../../../Assets/Images/Gallery/Carpet/7.jpg"),
           },
           {
-            src: require("../../../Assets/Images/Gallery/Carpet/8.webp"),
+            src: require("../../../Assets/Images/Gallery/Carpet/8.jpg"),
           },
           {
-            src: require("../../../Assets/Images/Gallery/Carpet/9.webp"),
+            src: require("../../../Assets/Images/Gallery/Carpet/9.jpg"),
           },
           {
-            src: require("../../../Assets/Images/Gallery/Carpet/10.webp"),
+            src: require("../../../Assets/Images/Gallery/Carpet/10.jpg"),
           },
           {
-            src: require("../../../Assets/Images/Gallery/Carpet/11.webp"),
+            src: require("../../../Assets/Images/Gallery/Carpet/11.jpg"),
           },
           {
-            src: require("../../../Assets/Images/Gallery/Carpet/12.webp"),
+            src: require("../../../Assets/Images/Gallery/Carpet/12.jpg"),
           },
           {
-            src: require("../../../Assets/Images/Gallery/Carpet/13.webp"),
+            src: require("../../../Assets/Images/Gallery/Carpet/13.jpg"),
           },
           {
-            src: require("../../../Assets/Images/Gallery/Carpet/14.webp"),
+            src: require("../../../Assets/Images/Gallery/Carpet/14.jpg"),
           },
           {
-            src: require("../../../Assets/Images/Gallery/Carpet/15.webp"),
+            src: require("../../../Assets/Images/Gallery/Carpet/15.jpg"),
           },
           {
-            src: require("../../../Assets/Images/Gallery/Carpet/16.webp"),
+            src: require("../../../Assets/Images/Gallery/Carpet/16.jpg"),
           },
           {
-            src: require("../../../Assets/Images/Gallery/Carpet/17.webp"),
+            src: require("../../../Assets/Images/Gallery/Carpet/17.jpg"),
           },
           {
-            src: require("../../../Assets/Images/Gallery/Carpet/18.webp"),
+            src: require("../../../Assets/Images/Gallery/Carpet/18.jpg"),
           },
           {
-            src: require("../../../Assets/Images/Gallery/Carpet/19.webp"),
+            src: require("../../../Assets/Images/Gallery/Carpet/19.jpg"),
           },
           {
-            src: require("../../../Assets/Images/Gallery/Carpet/20.webp"),
+            src: require("../../../Assets/Images/Gallery/Carpet/20.jpg"),
           },
           {
-            src: require("../../../Assets/Images/Gallery/Carpet/21.webp"),
+            src: require("../../../Assets/Images/Gallery/Carpet/21.jpg"),
           },
           {
-            src: require("../../../Assets/Images/Gallery/Carpet/22.webp"),
+            src: require("../../../Assets/Images/Gallery/Carpet/22.jpg"),
           },
           {
-            src: require("../../../Assets/Images/Gallery/Carpet/23.webp"),
+            src: require("../../../Assets/Images/Gallery/Carpet/23.jpg"),
           },
           {
-            src: require("../../../Assets/Images/Gallery/Carpet/24.webp"),
+            src: require("../../../Assets/Images/Gallery/Carpet/24.jpg"),
           },
           {
-            src: require("../../../Assets/Images/Gallery/Carpet/25.webp"),
+            src: require("../../../Assets/Images/Gallery/Carpet/25.jpg"),
           },
           {
-            src: require("../../../Assets/Images/Gallery/Carpet/26.webp"),
+            src: require("../../../Assets/Images/Gallery/Carpet/26.jpg"),
           },
           {
-            src: require("../../../Assets/Images/Gallery/Carpet/27.webp"),
+            src: require("../../../Assets/Images/Gallery/Carpet/27.jpg"),
           },
           {
-            src: require("../../../Assets/Images/Gallery/Carpet/28.webp"),
+            src: require("../../../Assets/Images/Gallery/Carpet/28.jpg"),
           },
           {
-            src: require("../../../Assets/Images/Gallery/Carpet/29.webp"),
+            src: require("../../../Assets/Images/Gallery/Carpet/29.jpg"),
           },
           {
-            src: require("../../../Assets/Images/Gallery/Carpet/30.webp"),
+            src: require("../../../Assets/Images/Gallery/Carpet/30.jpg"),
           },
           {
-            src: require("../../../Assets/Images/Gallery/Carpet/31.webp"),
+            src: require("../../../Assets/Images/Gallery/Carpet/31.jpg"),
           },
           {
-            src: require("../../../Assets/Images/Gallery/Carpet/32.webp"),
+            src: require("../../../Assets/Images/Gallery/Carpet/32.jpg"),
           },
           {
-            src: require("../../../Assets/Images/Gallery/Carpet/33.webp"),
+            src: require("../../../Assets/Images/Gallery/Carpet/33.jpg"),
+          },
+          {
+            src: require("../../../Assets/Images/Gallery/Carpet/34.jpg"),
+          },
+          {
+            src: require("../../../Assets/Images/Gallery/Carpet/35.jpg"),
+          },
+          {
+            src: require("../../../Assets/Images/Gallery/Carpet/36.jpg"),
           },
         ]}
       />
