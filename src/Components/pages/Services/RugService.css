@@ -95,7 +95,7 @@ li {
 
 .benefits .benefits-content .benefit-box .benefit-img img {
   height: auto;
-  max-width: 100%;
+  width: 4rem;
 }
 
 .benefits .benefits-content .benefit-box .benefit-info h4 {
