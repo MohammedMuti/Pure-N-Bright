@@ -9,7 +9,7 @@ const Blog = () => {
   return (
     <>
       <Navbar />
-      <Banner sublink="Blog" />
+      <Banner sublink="Blog" slogan="Make your Floor Comfort and Cozy" />
 
       <div className="blogs">
         <div className="blog heading">

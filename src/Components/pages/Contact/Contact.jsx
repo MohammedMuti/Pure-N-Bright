@@ -9,7 +9,7 @@ const Contact = () => {
     <>
       <Navbar />
       <div className="contact">
-        <Banner sublink={"Contact"} />
+        <Banner sublink={"Contact"} slogan="Connect with us right now" />
         <ContactComp />
 
         <Footer />

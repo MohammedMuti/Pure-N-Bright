@@ -22,8 +22,6 @@ const SubBars = (props) => {
     setDropDown(false);
   };
 
-  //   console.log(props.opt);
-
   return (
     <>
       <Link to={props.titleLink}>
@@ -41,6 +39,7 @@ const SubBars = (props) => {
           )}
           <ul
             className={dropDown ? "drop-down-nav active" : "drop-down-nav"}
+            style={dropDown ? { height: props.height } : null}
             onMouseLeave={setDropDownFalse}
           >
             {/* {props.opt?.map((i) => {

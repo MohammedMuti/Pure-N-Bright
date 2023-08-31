@@ -18,38 +18,38 @@ const Navbar = () => {
     setClick(!click);
   };
 
-  useEffect(() => {
-    window.addEventListener("scroll", () => {
-      if (window.scrollY > lastScrollY) {
-        setNavbar(false);
-      } else {
-        setNavbar(true);
-      }
-      setLastScrollY(window.scrollY);
-    });
-  });
+  // useEffect(() => {
+  //   window.addEventListener("scroll", () => {
+  //     if (window.scrollY > lastScrollY) {
+  //       setNavbar(false);
+  //     } else {
+  //       setNavbar(true);
+  //     }
+  //     setLastScrollY(window.scrollY);
+  //   });
+  // });
 
-  useEffect(() => {
-    const handleFade = (event) => {
-      if (window.scrollY > 200) {
-        setFade(false);
-      } else setFade(true);
-    };
-    window.addEventListener("scroll", handleFade);
+  // useEffect(() => {
+  //   const handleFade = (event) => {
+  //     if (window.scrollY > 200) {
+  //       setFade(false);
+  //     } else setFade(true);
+  //   };
+  //   window.addEventListener("scroll", handleFade);
 
-    return () => {
-      window.removeEventListener("scroll", handleFade);
-    };
-  });
+  //   return () => {
+  //     window.removeEventListener("scroll", handleFade);
+  //   };
+  // });
 
   return (
     <>
       <div
-        style={
-          fade
-            ? { backgroundColor: "rgba(0, 0, 0, 0)" }
-            : { backgroundColor: "rgba(0, 0, 0, 0.5)" }
-        }
+        // style={
+        //   fade
+        //     ? { backgroundColor: "rgba(0, 0, 0, 0)" }
+        //     : { backgroundColor: "rgba(0, 0, 0, 0.5)" }
+        // }
         className={navbar ? "navbar active" : "navbar"}
       >
         <div className="navbar_wrapper">
@@ -77,6 +77,10 @@ const Navbar = () => {
                 click ? "navbar_list_items" : "navbar_list_items active"
               }
             >
+              <Link to={"/"}>
+                <li>Home</li>
+              </Link>
+
               <Link to={"/blog"}>
                 <li>Blog</li>
               </Link>
@@ -84,6 +88,7 @@ const Navbar = () => {
               <SubBars
                 title="Services"
                 titleLink="/services"
+                height={14 + "rem"}
                 opt={[
                   {
                     name: "Carpet Cleaning Melbourne",
@@ -91,6 +96,10 @@ const Navbar = () => {
                   },
                   {
                     name: "Rug Cleaning Melbourne",
+                    link: "/services/rug-cleaning-melbourne",
+                  },
+                  {
+                    name: "Rug Repair Melbourne",
                     link: "/services/rug-cleaning-melbourne",
                   },
                 ]}

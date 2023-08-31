@@ -20,7 +20,7 @@
       text-align: justify;
       text-justify: inter-word;
       margin-bottom: 1.8rem;
-      letter-spacing: 2px;
+      // letter-spacing: 2px;
       margin-top: 1rem;
       line-height: 3rem;
     }
@@ -38,7 +38,7 @@
     span {
       color: blue;
       font-size: 2rem;
-      letter-spacing: 2px;
+      // letter-spacing: 2px;
       line-height: 3rem;
       cursor: pointer;
     }
@@ -53,10 +53,15 @@
     }
 
     .review_videos {
+      margin-top: 5rem;
       grid-gap: 2rem;
       display: grid;
-      gap: 2rem;
-      grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
+      gap: 6rem;
+      grid-template-columns: repeat(auto-fit, minmax(35rem, 1fr));
+
+      iframe {
+        width: 100%;
+      }
     }
   }
 
@@ -162,13 +167,13 @@
       p {
         // text-align: justify;
         // text-justify: inter-word;
-        letter-spacing: 1px;
+        // letter-spacing: 1px;
         line-height: 3rem;
 
         span {
           color: blue;
           font-size: 2rem;
-          letter-spacing: 2px;
+          // letter-spacing: 2px;
           line-height: 3rem;
           cursor: pointer;
         }

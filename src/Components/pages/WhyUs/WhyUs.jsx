@@ -13,7 +13,7 @@ const WhyUs = () => {
   return (
     <>
       <Navbar />
-      <Banner sublink="Why Us?" />
+      <Banner sublink="Why Us?" slogan="Why should you choose us?" />
       <div className="why_us">
         <div className="heading">
           <h4>WHY US??</h4>

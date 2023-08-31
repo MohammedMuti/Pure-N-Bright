@@ -1,5 +1,6 @@
 import { faChevronCircleRight } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { Link } from "react-router-dom";
 import Banner from "../../common/Banner/Banner";
 import ContactComp from "../../common/Contact/ContactComponent";
 import Footer from "../../common/Footer/Footer";
@@ -98,10 +99,10 @@ const CarpetService = () => {
         <div className="review_info">
           <h2>See Our Customer Reviews on Carpet Cleaning</h2>
           <div className="review_videos">
-            {/* <iframe
+            <iframe
               width="560"
               height="315"
-              src="https://www.youtube.com/embed/nNudq3w05O8"
+              src="https://www.youtube.com/embed/5ol5QRYZpp0?si=8g6GpxYAAVDU2Mx8"
               title="YouTube video player"
               frameborder="0"
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
@@ -111,12 +112,12 @@ const CarpetService = () => {
             <iframe
               width="560"
               height="315"
-              src="https://www.youtube.com/embed/nNudq3w05O8"
+              src="https://www.youtube.com/embed/-0kgA9iFkRM?si=AUkwysiPacWuktKD"
               title="YouTube video player"
               frameborder="0"
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
               allowfullscreen
-            ></iframe> */}
+            ></iframe>
           </div>
         </div>
 
@@ -137,10 +138,12 @@ const CarpetService = () => {
               />
             </div>
           </div>
-          <h4>
-            Check Out the Gallery for more Images
-            <FontAwesomeIcon icon={faChevronCircleRight} />
-          </h4>
+          <Link to={"/gallery/carpet-cleaning-gallery"}>
+            <h4>
+              Check Out the Gallery for more Images
+              <FontAwesomeIcon icon={faChevronCircleRight} />
+            </h4>
+          </Link>
         </div>
       </div>
 

@@ -15,14 +15,16 @@ const Banner = (props) => {
       <div
         className="banner"
         style={{
-          backgroundImage: `url(${
+          backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.55)),
+          url(${
             props.background || require("../../../Assets/Images/Back/1.avif")
           })`,
         }}
       >
         <div className="banner-content">
           <div className="banner-title">
-            <h1>{props.sublink2 ? props.sublink2 : props.sublink}</h1>
+            <h2>{props.sublink2 ? props.sublink2 : props.sublink}</h2>
+            <p>{props.slogan}</p>
           </div>
         </div>
       </div>

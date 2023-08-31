@@ -10,7 +10,7 @@ h3 {
 h1 {
   font-size: 4rem;
   color: #ffb400;
-  font-family: "Rockwell";
+  font-family: "Montserrat";
 }
 
 p,
@@ -49,7 +49,7 @@ li {
   grid-gap: 2rem;
   display: -ms-grid;
   display: grid;
-  gap: 10rem;
+  gap: 2rem;
   -ms-grid-columns: (minmax(30rem, 1fr))[auto-fit];
       grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
 }
@@ -61,6 +61,10 @@ li {
           box-shadow: 0px 0px 20px -8px;
   -webkit-transition: height 0.5s ease;
   transition: height 0.5s ease;
+}
+
+.services .content .service h1 {
+  font-size: 3rem;
 }
 
 .services .content .service.active .info {
@@ -79,7 +83,7 @@ li {
 .services .content .service img {
   max-width: 100%;
   border-radius: 5px;
-  max-height: 40rem;
+  min-height: 35rem;
   cursor: pointer;
 }
 
@@ -104,7 +108,7 @@ li {
 }
 
 .services .content .service .info .more h2 {
-  font-size: 2.5rem;
+  font-size: 2rem;
 }
 
 .services .content .service .info .more button {

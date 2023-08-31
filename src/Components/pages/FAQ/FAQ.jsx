@@ -9,10 +9,7 @@ const FAQ = () => {
   return (
     <>
       <Navbar />
-      <Banner
-        sublink={"FAQ"}
-        background={require("../../../Assets/Images/FAQ/FAQ-banner.jpg")}
-      />
+      <Banner sublink={"FAQ"} slogan="Frequently Asked Questions" />
       <div className="faq">
         <div className="lists">
           <FAQComp

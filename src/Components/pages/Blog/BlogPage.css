@@ -10,7 +10,7 @@ h3 {
 h1 {
   font-size: 4rem;
   color: #ffb400;
-  font-family: "Rockwell";
+  font-family: "Montserrat";
 }
 
 p,
@@ -65,7 +65,6 @@ li {
 
 .blog-page .blog-page-info p {
   margin-bottom: 3rem;
-  letter-spacing: 2.5px;
   line-height: 3rem;
 }
 
@@ -93,7 +92,6 @@ li {
 
 .blog-page .blog-page-info ul li {
   margin-bottom: 1rem;
-  letter-spacing: 2.5px;
   line-height: 3rem;
 }
 /*# sourceMappingURL=BlogPage.css.map */

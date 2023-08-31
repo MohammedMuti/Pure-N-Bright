@@ -1,16 +1,17 @@
 @import "../variables/variables.scss";
 
 .navbar {
-  position: fixed;
+  position: sticky;
   width: 100%;
   top: 0;
   left: 0;
-  background-color: $nav-bg;
+  background-color: white;
   z-index: 10;
-  height: 0rem;
-  display: none;
+  // height: 0rem;
+  // display: none;
   // overflow: hidden;
   transition: height ease-in-out;
+  box-shadow: 1px 1px 20px -5px;
 
   .navbar_wrapper {
     display: flex;
@@ -19,7 +20,7 @@
     align-items: center;
 
     .navbar_logo {
-      margin: 2rem;
+      margin: 1rem;
       img {
         width: 9rem;
       }
@@ -29,11 +30,11 @@
       display: flex;
       align-items: center;
       .up_down {
-        color: white;
+        color: black;
         font-size: 3rem;
         cursor: pointer;
         display: none;
-        @media (max-width: 750px) {
+        @media (max-width: 800px) {
           display: block;
           margin-right: 2rem;
         }
@@ -49,13 +50,13 @@
         margin-right: 5px;
         transition: 0.5s linear;
 
-        @media (max-width: 750px) {
+        @media (max-width: 800px) {
           display: flex;
           flex-direction: column;
           align-items: flex-start;
           position: absolute;
-          background-color: rgba(0, 0, 0, 0.9);
-          top: 100px;
+          background-color: white;
+          top: 90px;
           left: 0;
           right: 0;
           overflow: none;
@@ -64,6 +65,9 @@
           border-bottom: 1px solid rgb(179, 179, 179);
           clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
           transition: 0.5s linear;
+          a {
+            width: 100%;
+          }
         }
 
         .nav-service-Links {
@@ -84,12 +88,13 @@
             transition: height 0.5s ease;
             position: absolute;
             color: white;
-            background-color: rgba(0, 0, 0, 0.5);
+            background-color: white;
             // padding-top: 10px;
             list-style-type: none;
             width: max-content;
             left: 0px;
             top: 5.1rem;
+            box-shadow: 1px 1px 20px -5px black;
 
             &.active {
               height: 9.5rem;
@@ -100,7 +105,7 @@
               font-size: 2rem;
             }
 
-            @media (max-width: 750px) {
+            @media (max-width: 800px) {
               position: relative;
               width: 100%;
               top: 1rem;
@@ -118,20 +123,20 @@
 
           font-family: "Montserrat", Sans-serif;
           font-size: 2.5rem;
-          color: white;
+          color: black;
           cursor: pointer;
           &:hover {
-            background-color: #eee;
-            color: black;
+            background-color: #777;
+            color: white;
           }
 
-          @media (max-width: 750px) {
+          @media (max-width: 800px) {
             width: 100%;
           }
         }
       }
 
-      @media (max-width: 750px) {
+      @media (max-width: 800px) {
         .navbar_list_items.active {
           padding-left: 2rem;
           clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
@@ -142,7 +147,7 @@
   }
 }
 .navbar.active {
-  height: 11.5rem;
+  // height: 11.5rem;
   display: block;
   // overflow: auto;
 }

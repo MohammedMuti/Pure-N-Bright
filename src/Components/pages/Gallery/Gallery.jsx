@@ -9,7 +9,7 @@ const Gallery = () => {
   return (
     <>
       <Navbar />
-      <Banner sublink="Gallery" />
+      <Banner sublink="Gallery" slogan="Checkout Our Albums" />
       <div className="gallery">
         <div className="gallery_wrapper">
           <GalleryComp

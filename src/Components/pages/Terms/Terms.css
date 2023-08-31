@@ -10,7 +10,7 @@ h3 {
 h1 {
   font-size: 4rem;
   color: #ffb400;
-  font-family: "Rockwell";
+  font-family: "Montserrat";
 }
 
 p,
@@ -57,7 +57,6 @@ li {
 
 .terms.section .terms.info p {
   margin-bottom: 1.8rem;
-  letter-spacing: 3px;
   line-height: 3rem;
 }
 

@@ -10,7 +10,7 @@ const Services = () => {
   return (
     <>
       <Navbar />
-      <Banner sublink="Services" />
+      <Banner sublink="Services" slogan="We Provide the Best Services" />
       <div className="services">
         <div className="heading">
           <h2>Our Services</h2>
@@ -26,8 +26,15 @@ const Services = () => {
           <Link to={"/services/rug-cleaning-melbourne"}>
             <ServiceComp
               title="Rug Cleaning"
-              info="CARPET CLEANING MELBOURNE Pure N Bright Carpet Cleaning"
+              info="RUG CLEANING MELBOURNE Pure N Bright Carpet Cleaning"
               img={require("../../../Assets/Images/Services/rug.webp")}
+            />
+          </Link>
+          <Link to={"/services/rug-cleaning-melbourne"}>
+            <ServiceComp
+              title="Rug Repair"
+              info="RUG REPAIR MELBOURNE Pure N Bright Carpet Cleaning"
+              img={require("../../../Assets/Images/Services/repair.webp")}
             />
           </Link>
         </div>

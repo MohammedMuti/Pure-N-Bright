@@ -10,7 +10,7 @@ h3 {
 h1 {
   font-size: 4rem;
   color: #ffb400;
-  font-family: "Rockwell";
+  font-family: "Montserrat";
 }
 
 p,
@@ -242,6 +242,7 @@ li {
   font-weight: 900;
   padding-bottom: 2rem;
   font-size: 2rem;
+  color: #ffb400;
 }
 
 .home .types.section {
