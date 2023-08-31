@@ -1,4 +1,8 @@
-import { faChevronRight } from "@fortawesome/free-solid-svg-icons";
+import {
+  faChevronRight,
+  faPaperPlane,
+  faPhone,
+} from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import React from "react";
 import { Link, useLocation } from "react-router-dom";
@@ -25,6 +29,16 @@ const Banner = (props) => {
           <div className="banner-title">
             <h2>{props.sublink2 ? props.sublink2 : props.sublink}</h2>
             <p>{props.slogan}</p>
+            <div className="buttons">
+              <button>
+                <FontAwesomeIcon icon={faPaperPlane} />
+                Make an Appointment
+              </button>
+              <button>
+                <FontAwesomeIcon icon={faPhone} />
+                Call Now
+              </button>
+            </div>
           </div>
         </div>
       </div>

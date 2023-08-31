@@ -41,7 +41,7 @@ li {
 }
 
 .carpet_service .main_info h2 {
-  color: #c047c0;
+  color: #ffb400;
   font-size: 4rem;
   margin-bottom: 1.5rem;
 }
@@ -56,7 +56,7 @@ li {
 
 .carpet_service .main_info h3 {
   margin-top: 4rem;
-  color: #d272d2;
+  color: #ffcf60;
 }
 
 .carpet_service .main_info h4 {
@@ -78,7 +78,7 @@ li {
 }
 
 .carpet_service .review_info h2 {
-  color: #c047c0;
+  color: #ffb400;
   font-size: 4rem;
   margin-bottom: 1.5rem;
 }
@@ -102,7 +102,7 @@ li {
 }
 
 .carpet_service .cleaning_info h2 {
-  color: #c047c0;
+  color: #ffb400;
   font-size: 3rem;
   margin-bottom: 1.5rem;
 }
@@ -175,7 +175,7 @@ li {
 
 .solution .solution_heading h2 {
   text-align: center;
-  color: #c047c0;
+  color: #ffb400;
   font-size: 3rem;
   margin-bottom: 1.5rem;
 }

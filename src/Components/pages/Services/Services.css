@@ -41,7 +41,7 @@ li {
 }
 
 .services .heading h2 {
-  color: #c047c0;
+  color: #ffb400;
   font-size: 4rem;
 }
 
@@ -113,7 +113,7 @@ li {
 
 .services .content .service .info .more button {
   font-size: 2.5rem;
-  background-color: #c047c0;
+  background-color: #ffb400;
   border: none;
   border-radius: 5px;
   margin-top: 1rem;
@@ -121,6 +121,6 @@ li {
 }
 
 .services .content .service .info .more button:hover {
-  background-color: #d272d2;
+  background-color: #ffcf60;
 }
 /*# sourceMappingURL=Services.css.map */

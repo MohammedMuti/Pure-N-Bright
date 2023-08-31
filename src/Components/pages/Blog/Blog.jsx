@@ -12,9 +12,7 @@ const Blog = () => {
       <Banner sublink="Blog" slogan="Make your Floor Comfort and Cozy" />
 
       <div className="blogs">
-        <div className="blog heading">
-          <h2>Blogs</h2>
-        </div>
+        <div className="blog heading">{/* <h2>Blogs</h2> */}</div>
         <div className="blog content">
           <BlogComp
             title="Sheep Skin Rug Cleaning"
