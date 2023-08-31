@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Pure-N-Bright/static/css/main.d4c26ea9.css",
-    "main.js": "/Pure-N-Bright/static/js/main.f13c4769.js",
+    "main.css": "/Pure-N-Bright/static/css/main.a61466cc.css",
+    "main.js": "/Pure-N-Bright/static/js/main.220a0b69.js",
     "static/media/work1.png": "/Pure-N-Bright/static/media/work1.2f42c85503ee8617750c.png",
     "static/media/work3.png": "/Pure-N-Bright/static/media/work3.4eea71b88e8d545001fe.png",
     "static/media/19.jpg": "/Pure-N-Bright/static/media/19.d1a0a61bc311d45523d0.jpg",
@@ -83,11 +83,11 @@
     "static/media/Pure-N-Bright-Logo.png.webp": "/Pure-N-Bright/static/media/Pure-N-Bright-Logo.png.abf0916acbed2e550e4c.webp",
     "static/media/googleBadge.webp": "/Pure-N-Bright/static/media/googleBadge.fdc365d9b010e5f708ea.webp",
     "index.html": "/Pure-N-Bright/index.html",
-    "main.d4c26ea9.css.map": "/Pure-N-Bright/static/css/main.d4c26ea9.css.map",
-    "main.f13c4769.js.map": "/Pure-N-Bright/static/js/main.f13c4769.js.map"
+    "main.a61466cc.css.map": "/Pure-N-Bright/static/css/main.a61466cc.css.map",
+    "main.220a0b69.js.map": "/Pure-N-Bright/static/js/main.220a0b69.js.map"
   },
   "entrypoints": [
-    "static/css/main.d4c26ea9.css",
-    "static/js/main.f13c4769.js"
+    "static/css/main.a61466cc.css",
+    "static/js/main.220a0b69.js"
   ]
 }
