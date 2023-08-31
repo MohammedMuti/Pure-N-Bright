@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/Pure-N-Bright/static/css/main.644e8272.css",
+    "main.css": "/Pure-N-Bright/static/css/main.f43d1100.css",
     "main.js": "/Pure-N-Bright/static/js/main.0e7f7453.js",
     "static/media/work1.png": "/Pure-N-Bright/static/media/work1.2f42c85503ee8617750c.png",
     "static/media/work3.png": "/Pure-N-Bright/static/media/work3.4eea71b88e8d545001fe.png",
@@ -88,11 +88,11 @@
     "static/media/8.webp": "/Pure-N-Bright/static/media/8.7a379e70006fd2364bb6.webp",
     "static/media/3.webp": "/Pure-N-Bright/static/media/3.403f0972a27df7de79da.webp",
     "index.html": "/Pure-N-Bright/index.html",
-    "main.644e8272.css.map": "/Pure-N-Bright/static/css/main.644e8272.css.map",
+    "main.f43d1100.css.map": "/Pure-N-Bright/static/css/main.f43d1100.css.map",
     "main.0e7f7453.js.map": "/Pure-N-Bright/static/js/main.0e7f7453.js.map"
   },
   "entrypoints": [
-    "static/css/main.644e8272.css",
+    "static/css/main.f43d1100.css",
     "static/js/main.0e7f7453.js"
   ]
 }
