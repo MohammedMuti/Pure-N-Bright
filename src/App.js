@@ -15,6 +15,7 @@ import RugGallery from "./Components/pages/Gallery/RugGallery";
 import UpholsteryGallery from "./Components/pages/Gallery/UpholsteryGallery";
 import LeatherGallery from "./Components/pages/Gallery/LeatherGallery";
 import TilesGallery from "./Components/pages/Gallery/TilesGallery";
+import RugService from "./Components/pages/Services/RugService";
 
 function App() {
   return (
@@ -70,7 +71,7 @@ function App() {
           <Route
             exact
             path="/services/rug-cleaning-melbourne"
-            element={<Services />}
+            element={<RugService />}
           />
           {/* Thank You */}
           <Route exact path="/thank-you" element={<Thank />} />
