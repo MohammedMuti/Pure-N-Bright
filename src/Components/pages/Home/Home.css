@@ -136,7 +136,7 @@ li {
   margin-bottom: 4rem;
   background-color: #444;
   padding: 2rem 1rem;
-  border-bottom: solid 5px #c047c0;
+  border-bottom: solid 5px #ffb400;
 }
 
 .home .pick_up.section .pick_up.heading h2 {
@@ -211,7 +211,7 @@ li {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  background-color: #eee;
+  background-color: #7b7b7b;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
@@ -243,7 +243,7 @@ li {
   margin-left: 2rem;
   font-weight: 900;
   padding-bottom: 2rem;
-  font-size: 2rem;
+  font-size: 2.5rem;
   color: #ffb400;
 }
 
@@ -323,7 +323,7 @@ li {
 .home .choose_us.section .choose_us.heading h2 {
   padding: 2rem 1rem;
   background-color: #444;
-  border-bottom: solid 5px #c047c0;
+  border-bottom: solid 5px #ffb400;
   color: white;
   font-size: 4rem;
 }

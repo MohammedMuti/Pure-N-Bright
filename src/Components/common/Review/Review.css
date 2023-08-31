@@ -10,12 +10,14 @@ h3 {
 h1 {
   font-size: 4rem;
   color: #ffb400;
-  font-family: "Rockwell";
+  font-family: "Montserrat";
 }
 
-p {
+p,
+li {
   color: #646464;
   font-size: 2rem;
+  font-family: "Montserrat";
 }
 
 .reviews .slide p {
@@ -31,7 +33,7 @@ p {
 
 .reviews .heading {
   margin-bottom: 3rem;
-  color: #c047c0;
+  color: #ffb400;
 }
 
 .reviews .slide p::before {

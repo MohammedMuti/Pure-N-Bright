@@ -78,6 +78,10 @@ li {
   resize: none;
 }
 
+.contact1 .row form .errorMessage {
+  color: red;
+}
+
 .contact1 .row form h3 {
   font-size: 2.5rem;
   color: #111;
