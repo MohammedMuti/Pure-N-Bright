@@ -9,6 +9,35 @@
   @media (max-width: 800px) {
     padding: 5rem 2rem;
   }
+  grid-gap: 2rem;
+  display: grid;
+  gap: 2rem;
+  grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
+  align-items: center;
+
+  .rug-service-img {
+    img {
+      width: 100%;
+    }
+  }
+
+  .rug-service-content {
+    h2 {
+      margin-bottom: 1rem;
+    }
+    h4 {
+      color: $orange;
+      margin-bottom: 1rem;
+      font-size: 3rem;
+    }
+    p {
+      margin-bottom: 1rem;
+      // text-align: justify;
+      // text-justify: inter-word;
+    }
+    h3 {
+    }
+  }
 }
 
 .benefits {

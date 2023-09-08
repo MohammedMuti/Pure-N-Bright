@@ -100,7 +100,7 @@ const Navbar = () => {
                   },
                   {
                     name: "Rug Repair Melbourne",
-                    link: "/services/rug-cleaning-melbourne",
+                    link: "/services/rug-repair-melbourne",
                   },
                 ]}
               />

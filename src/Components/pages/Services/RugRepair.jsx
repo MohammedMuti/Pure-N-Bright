@@ -6,11 +6,11 @@ import Benefit from "./Benefit";
 import Helped from "./Helped";
 import "./RugService.css";
 
-const RugService = () => {
+const RugRepair = () => {
   return (
     <>
       <Navbar />
-      <Banner sublink={"Services"} sublink2={"Rug Cleaning Melbourne"} />
+      <Banner sublink={"Services"} sublink2={"Rug Repair Melbourne"} />
       <div className="rug-service">
         <div className="rug-service-img">
           <img
@@ -156,4 +156,4 @@ const RugService = () => {
   );
 };
 
-export default RugService;
+export default RugRepair;
