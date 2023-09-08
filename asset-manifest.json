@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Pure-N-Bright/static/css/main.1e06cbd6.css",
-    "main.js": "/Pure-N-Bright/static/js/main.8c1ef10a.js",
+    "main.css": "/Pure-N-Bright/static/css/main.db7a35ed.css",
+    "main.js": "/Pure-N-Bright/static/js/main.5da5871c.js",
     "static/media/work1.png": "/Pure-N-Bright/static/media/work1.2f42c85503ee8617750c.png",
     "static/media/work3.png": "/Pure-N-Bright/static/media/work3.4eea71b88e8d545001fe.png",
     "static/media/19.jpg": "/Pure-N-Bright/static/media/19.d1a0a61bc311d45523d0.jpg",
@@ -77,8 +77,10 @@
     "static/media/versus.jpg": "/Pure-N-Bright/static/media/versus.954501e355781b61bbc2.jpg",
     "static/media/tile_grout_cleaning.jpeg": "/Pure-N-Bright/static/media/tile_grout_cleaning.66f1aaba906764c16963.jpeg",
     "static/media/experts.jpg": "/Pure-N-Bright/static/media/experts.993e8ac1945e7d02427a.jpg",
+    "static/media/rug-cleaning1.webp": "/Pure-N-Bright/static/media/rug-cleaning1.33186ea72d8d25af3377.webp",
     "static/media/HandCleaning.jpg": "/Pure-N-Bright/static/media/HandCleaning.81a868c708fc4e8dcbe1.jpg",
     "static/media/StemCleaning.jpg": "/Pure-N-Bright/static/media/StemCleaning.e4cdfb9e4395f8146322.jpg",
+    "static/media/rug-cleaning2.webp": "/Pure-N-Bright/static/media/rug-cleaning2.204c5ace0d1d16abd4a3.webp",
     "static/media/2.webp": "/Pure-N-Bright/static/media/2.464bfeb83b290c28b392.webp",
     "static/media/1.webp": "/Pure-N-Bright/static/media/1.700eed8a5d92137087da.webp",
     "static/media/Pure-N-Bright-Logo.png.webp": "/Pure-N-Bright/static/media/Pure-N-Bright-Logo.png.abf0916acbed2e550e4c.webp",
@@ -88,11 +90,11 @@
     "static/media/8.webp": "/Pure-N-Bright/static/media/8.7a379e70006fd2364bb6.webp",
     "static/media/3.webp": "/Pure-N-Bright/static/media/3.403f0972a27df7de79da.webp",
     "index.html": "/Pure-N-Bright/index.html",
-    "main.1e06cbd6.css.map": "/Pure-N-Bright/static/css/main.1e06cbd6.css.map",
-    "main.8c1ef10a.js.map": "/Pure-N-Bright/static/js/main.8c1ef10a.js.map"
+    "main.db7a35ed.css.map": "/Pure-N-Bright/static/css/main.db7a35ed.css.map",
+    "main.5da5871c.js.map": "/Pure-N-Bright/static/js/main.5da5871c.js.map"
   },
   "entrypoints": [
-    "static/css/main.1e06cbd6.css",
-    "static/js/main.8c1ef10a.js"
+    "static/css/main.db7a35ed.css",
+    "static/js/main.5da5871c.js"
   ]
 }
